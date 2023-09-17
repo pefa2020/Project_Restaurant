@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(240, 249, 186);
+}
+
+.top {
+    font-size: 15px;
+	font-family: Verdana;
+    margin: 10px;
+}
+
+header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+	width: 850px;
+	background-color: rgb(167, 117, 221);
+	margin: 15px auto;
+	padding: 10px 0;
+	border: 1px solid rgb(255, 9, 26);
+	padding-bottom: 2em;
+    border-radius: 50%;
+}
+
+h3 {
+	margin: 20px;
+}
+
+.description {
+	font-family: Verdana, Arial Arial, Helvetica, sans-serif;
+	margin: 50px;
+	padding: 10px;
+	text-align: justify;
+    border: 1px solid rgb(70, 21, 195)
+}
+
+.paragraph {
+    font-family: Verdana, Arial Arial, Helvetica, sans-serif;
+	margin: 10px;
+	padding: 10px;
+	text-align: justify;
+}
+
+figure {
+	margin:  6em;
+	background-color: #EEEEEE;
+	padding: 1.5em;
+	border: solid 1px #999999;
+
+ }
+
+footer {
+    font-size: 15px;
+    font-family: Verdana;
+    margin: 10px;
+}

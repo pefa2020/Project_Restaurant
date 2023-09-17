@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(98, 234, 211);
+}
+
+.top {
+    font-size: 15px;
+	font-family: Verdana;
+    margin: 10px;
+}
+
+header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: rgb(40, 40, 40);
+    font-size: 100%;
+	width: 850px;
+	background-color: rgb(217, 214, 134);
+	margin: 15px auto;
+	padding: 10px 0;
+	border: 1px solid rgb(255, 9, 26);
+	padding-bottom: 2em;
+    border-radius: 50%;
+    border-width: 0.2cm;
+}
+
+.description {
+    margin: 40px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+figure {
+	margin:  10em;
+	background-color: #93a4fe;
+	padding: 1.5em;
+	border: solid 1px #161616;
+ }
+
+footer {
+    font-size: 15px;
+    font-family: Verdana;
+    margin: 10px;
+}

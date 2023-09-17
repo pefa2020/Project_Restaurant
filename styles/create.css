@@ -1,0 +1,177 @@
+html {
+    background-color: rgb(245, 200, 161);
+    box-sizing: border-box;
+}
+
+.top {
+    font-size: 15px;
+	font-family: Verdana;
+    margin: 10px;
+}
+
+header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: rgb(228, 53, 44);
+    font-size: 115%;
+	width: 850px;
+	background-color: rgb(178, 233, 232);
+	margin: 15px auto;
+	padding: 10px 0;
+	border: 1px solid rgb(0, 0, 0);
+	padding-bottom: 2em;
+}
+
+span{
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Arial, Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+    margin: 1em;
+}
+button {
+    margin: 2em;
+}
+
+span.circlecolor1 {
+    background-color: rgb(167, 192, 239);
+}
+
+span.circlecolor2 {
+    background-color: rgb(167, 192, 239);
+}
+img {
+    padding: 10pt;
+}
+
+form {
+    font-size: 150%;
+}
+
+footer {
+    font-size: 15px;
+    font-family: Verdana;
+    margin: 10px;
+}
+
+.visible { 
+    display: block;
+}
+
+#errors {
+  margin: 20px auto;
+  width: 350px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;    
+}
+#errors p { padding: 10px; }
+
+/* start */
+:root {
+    --color-block-1: #7B93DB;
+    --color-block-2: #4C63B6;
+    --color-block-3: #2D3A8C;
+    --color-block-4: #EF4E4E;
+
+    --color-text-light: #F5F7FA;
+    --color-text-dark: #3E4C59;
+
+    --color-back: #F5F7FA;
+}
+html { box-sizing: border-box; }
+*, *:before, *:after {
+box-sizing: inherit;
+}  
+
+.container {
+	padding: 25px;
+    width: 100%;
+
+ }
+ .container > div {
+     background-color: #616E7C;
+     color: white;
+     border: 0;
+     border-radius: 3px;
+     padding: 1.5em;
+	 box-shadow: 2px 2px 2px 2px hsla(0,0%,75%,0.2);
+ }
+
+ /* add your styles */
+.container {
+    gap: 25px;
+    display: grid;
+    grid-template-rows: repeat(6,100px);
+    grid-template-columns: repeat(4,1fr); 
+    grid-template-areas: ". a b ."
+                         ". c d ."
+                         ". e f ."
+                         ". g h ."
+                         ". i j ."
+                         ". k l .";
+
+}
+
+#a {grid-area: a; background-color: #4C63B6;}
+
+#b {grid-area: b; background-color: #EF4E4E;}
+
+#c {grid-area: c; background-color: #afa62b;}
+
+#d {grid-area: d; background-color: rgb(28, 185, 185);}
+
+#e {grid-area: e; background-color: #3c1dc2;}
+
+#f {grid-area: f; background-color: #4C63B6;}
+
+#g {grid-area: g; 
+    background-color: rgb(68, 221, 142);
+    display: flex;
+}
+
+#h {grid-area: h; 
+    background-color: rgb(179, 194, 69);
+    display: flex;
+}
+
+#i {
+    grid-area: i; 
+    background-color: chocolate;
+    display: flex;
+}
+
+#j {grid-area: j; 
+    background-color: aquamarine;
+    display: flex;
+}
+#k {
+    grid-area: k; 
+    background-color: #c0b398;
+    display: flex;
+}
+.K {
+    display: flex;
+    justify-self: stretch;
+    align-items: stretch;
+    justify-items: stretch;
+    height: 100%;
+    width: 100%;
+}
+
+#l {
+    grid-area: l; 
+    background-color: #6d823b;
+    display: flex;
+}
+.L {
+    display: flex;
+    justify-self: stretch;
+    align-items: stretch;
+    justify-items: stretch;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* end*/
